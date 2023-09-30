@@ -1,0 +1,99 @@
+@import url(buttons.css);
+@import url(blog.css);
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background-image: url(../Assets/background.png);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 3%;
+
+}
+
+figcaption {
+    display: inline-block;
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+img{
+    width: 100px;
+    height: 470px;
+    border: 2px dotted rgb(134, 73, 6);
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#headerwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+
+#header {
+    height: 75px;
+    background: rgb(212, 190, 129);
+    border-radius: 10px;
+    border: 1px solid rgb(134, 73, 6);
+    margin: 5px;
+    font-family: 'Darumadrop One', cursive;
+    color: #964B00;
+}
+
+#contentwrap {
+    width: 850px;
+    float: left;
+    margin: 0 auto;
+}
+
+#content {
+    background: rgba(233, 196, 204, 0.7);
+    border-radius: 10px;
+    border: 1px solid rgb(134, 73, 6);
+    margin: 5px;
+}
+
+#leftcolumnwrap {
+    display:grid;
+    width: 150px;
+    float: left;
+    margin: 0 auto;
+}
+
+#leftcolumn {
+    background: rgb(212, 190, 129);
+    border-radius: 10px;
+    border: 1px solid rgb(134, 73, 6);
+    margin: 5px;
+}
+
+#footerwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+    clear: both;
+}
+
+.footer{
+    height: 90px;
+    background: rgb(212, 190, 129);
+    border-radius: 10px;
+    border: 1px solid rgb(134, 73, 6);
+    margin: 5px;
+    text-align: right;
+}
